@@ -1,0 +1,110 @@
+body{
+    font-family: 'Lato', sans-serif;
+   margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.color{
+    color: teal;
+}
+.half{
+    width: 50%;
+    padding-left: 5%;
+}
+.half img{
+   padding-top: 5%;
+   width: 100%;
+   height: 100%;
+   border-radius: 5%;
+}
+.button-one{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 0, 55),rgb(231, 125, 125));
+    padding: 10px 40px;
+    border-radius: 5%;
+    font-weight: 700;
+}
+.top-pic{
+    background-image: url(img/images\ \(1\).png);
+    background-repeat: no-repeat;
+}
+.dream img{
+    padding-top: 5%;
+    height: 400px;
+    width: 550px;
+    border-radius:50px;
+}
+.button-to{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 115, 0),rgb(231, 220, 125));
+    padding: 10px 40px;
+    border-radius: 5%;
+    font-weight: 700;
+}
+.dream{
+    background-image: url(img/imgs.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+}
+.ex{
+  background-image: url(img/top.png);
+  background-repeat: no-repeat;
+}
+.full{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px gray;
+}
+p{
+    color: dimgray;
+}
+#any{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#any-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(4, 4, 65), cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+.cars{
+    padding-right: 3%;
+    padding-left: 3%;
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, rgb(4, 4, 65), cyan);
+    border-image-slice: 1;
+
+}
+.cars-one{
+    padding-right: 3%;
+    padding-left: 3%;
+    border-left: 7px solid;
+    border-image: linear-gradient(90deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.cars-tow{
+    padding-right: 3%;
+    padding-left: 3%;
+    border-left: 7px solid;
+    border-image: linear-gradient(90deg, rgb(122, 251, 255), rgb(157, 71, 255));
+    border-image-slice: 1;
+}
